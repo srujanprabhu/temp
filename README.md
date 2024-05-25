@@ -43,7 +43,8 @@ streamlit run main.py
 ```
 
 ## Project Structure
-flight-navigation/
+flight-navigation
+
 -├── main.py
 -├── page1.py
 -├── airports.json
