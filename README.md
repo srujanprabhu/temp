@@ -44,8 +44,8 @@ streamlit run main.py
 
 ## Project Structure
 flight-navigation
-├── main.py.
-├── page1.py.
+├── [main.py](#main.py).
+├── [page1.py](#page1.py).
 ├── airports.json.
 ├── flight.csv.
 ├── requirements.txt.
