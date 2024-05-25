@@ -44,13 +44,12 @@ streamlit run main.py
 
 ## Project Structure
 flight-navigation
-
--├── main.py
--├── page1.py
--├── airports.json
--├── flight.csv
--├── requirements.txt
--└── README.md
+├── main.py.
+├── page1.py.
+├── airports.json.
+├── flight.csv.
+├── requirements.txt.
+└── README.md.
 
 
 ## Theme of the Project
