@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReluConsultancy Due Diligence Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        #project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        #project-list li {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #ddd;
+            cursor: move; /* For dragula */
+        }
+        .gu-mirror { /* Dragula dragging style */
+            position: fixed !important;
+            margin: 0 !important;
+            z-index: 9999 !important;
+            opacity: 0.8;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+            filter: alpha(opacity=80);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>ReluConsultancy Due Diligence Report</h1>
+
+    <h2>Financial Overview</h2>
+    <p>Estimated Revenue: $1,500,000 (FY2024)</p>  <!-- Replace with actual revenue -->
+
+
+    <h2>Project Portfolio</h2>
+
+    <ul id="project-list">
+        <li>Project Alpha - AI-powered Customer Service Solution</li>
+        <li>Project Beta - Data Analytics Platform for Healthcare</li>
+        <li>Project Gamma - Mobile App Development for E-commerce</li>
+        <li>Project Delta - Cloud Migration Strategy for Finance</li>
+        <li>Project Epsilon - Cybersecurity Assessment and Implementation </li>
+    </ul>
+
+    <h2>Project Details</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Client</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Project Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Project Alpha</td>
+                <td>Client A</td>
+                <td>2023-06-01</td>
+                <td>2024-03-15</td>
+                <td>$400,000</td>
+            </tr>
+              <tr>
+                <td>Project Beta</td>
+                <td>Client B</td>
+                <td>2023-09-15</td>
+                <td>2024-06-30</td>
+                <td>$350,000</td>
+            </tr>
+            <tr>
+                <td>Project Gamma</td>
+                <td>Client C</td>
+                <td>2023-12-01</td>
+                <td>2024-09-15</td>
+                <td>$250,000</td>
+            </tr>
+            <tr>
+                <td>Project Delta</td>
+                <td>Client D</td>
+                <td>2024-02-15</td>
+                <td>2024-11-30</td>
+                <td>$300,000</td>
+            </tr>
+             <tr>
+                <td>Project Epsilon</td>
+                <td>Client E</td>
+                <td>2024-05-01</td>
+                <td>2025-02-15</td>
+                <td>$200,000</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js"></script>
+    <script>
+        dragula([document.getElementById('project-list')]); // Make the list draggable
+    </script>
+
+</body>
+</html>
